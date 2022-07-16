@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+    margin-left: 50px ;
+    font-size: 0.9em;
+    min-width: 400px;
+  }
+  table thead tr {
+    background-color: red;
+    color: whitesmoke;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+td,th{
+    border: 1px solid white;
+
+}
+tr:hover{
+    background-color: red;
+    color: black;
+}
+#tableh1{
+    margin-left: 50px;
+}

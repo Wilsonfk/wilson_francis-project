@@ -1,0 +1,14 @@
+iframe{
+    border: 2px solid red;
+    width: 300px;
+    display: inline-block;
+}
+span{
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+main h1{
+    margin-left: 20px;
+}
+

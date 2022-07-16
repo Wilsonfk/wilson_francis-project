@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: auto;
+    background: black;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:flex-start; 
+    align-items: stretch; 
+}
+
+#firstImage{
+    height: 90px;
+    width: 90px;
+    float: left;
+    margin: 10px;
+}
+#headerh1{
+    text-align: right;
+}
+
+nav{
+    background: red;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+nav ul{ 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    }
+nav>ul>li
+{ 
+        display: inline-block; 
+        position: relative; 
+ }
+ nav ul li ul { 
+    width: 250px;
+    position: absolute; 
+    z-index: 999; 
+    text-align: left;
+    background-color: maroon;
+    box-shadow: 0 0 5px maroon;
+}
+nav ul li ul li a{ 
+    color: white;
+    padding: 10px;
+    display: block; 
+    }
+nav ul li ul li:hover a:hover{ 
+    color: red;
+    background-color: black;
+ }
+nav ul li ul { 
+    display: none; 
+}
+nav ul li:hover ul{
+display: block; 
+}
+    
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 25px;
+    
+}
+a:hover{
+    color: black;
+}
+
+#navimg{
+    height: 150px;
+    width: 150px;    
+}
+
+figcaption{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.sidebar{
+    flex: 1 1 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+main{
+    
+    flex: 3 1 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+aside{
+    flex: 2 1 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+footer{
+    margin-top: 50px;
+    clear: both;
+    position: relative;
+    height: 300px;
+    
+}
+#copyright{
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+}
